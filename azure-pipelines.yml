@@ -24,6 +24,6 @@ steps:
 - task: NexusIqPipelineTask@1
   inputs:
     nexusIqService: 'IQ Server'
-    applicationId: 'Webgoat'
+    applicationId: 'audit-final'
     stage: 'stage-release'
     continueOnError: true
