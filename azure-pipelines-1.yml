@@ -22,6 +22,6 @@ steps:
     goals: 'package'
 - task: NexusIqPipelineTask@1
   inputs:
-    nexusIqService: 'Nexus-IQ'
+    nexusIqService: 'finaltest'
     applicationId: 'audit-final'
     stage: 'Build'
