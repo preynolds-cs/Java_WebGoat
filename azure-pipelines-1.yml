@@ -25,3 +25,4 @@ steps:
     nexusIqService: 'finaltest'
     applicationId: 'audit-final'
     stage: 'Build'
+    scanTargets: '**/*'
